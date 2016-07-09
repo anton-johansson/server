@@ -1,0 +1,7 @@
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -t anton-johansson/apt-repository apt-repository
