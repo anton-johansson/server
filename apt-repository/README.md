@@ -13,9 +13,10 @@ A Docker container that hosts a simple APT repository over HTTP using apache.
 ```shell
 cd apt-repository/repo/binary
 cp location-of-package/package.deb .
+dpkg-sig -k ??? --sign builder package.deb
 apt-ftparchive packages . > Packages
 gzip -c Packages > Packages.gz
 apt-ftparchive release . > Release
-gpg -k ??? --clearsign -o InRelease Release
-gpg -k ??? -abs -o Release.gpg Release
+gpg -u ??? --clearsign -o InRelease Release
+gpg -u ??? -abs -o Release.gpg Release
 ```
