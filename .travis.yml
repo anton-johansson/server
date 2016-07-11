@@ -6,3 +6,4 @@ services:
 
 install:
   - docker build -t anton-johansson/apt-repository apt-repository
+  - docker build -t anton-johansson/web-proxy web-proxy
