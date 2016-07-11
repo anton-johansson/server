@@ -7,6 +7,6 @@ RUN rm /var/www/html/index.html
 
 COPY repo /var/www/html
 
-EXPOSE 3001
+EXPOSE 80
 
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
