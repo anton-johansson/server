@@ -6,6 +6,14 @@
 Docker images and scripts for setting up the server.
 
 
+## Running
+
+```shell
+docker run --detatch --name apt-repository anton-johansson/apt-repository
+docker run --detatch --name web-proxy --link apt-repository --publish 80:80 anton-johansson/web-proxy
+```
+
+
 ## License
 
 Apache License © [Anton Johansson](https://github.com/anton-johansson)
