@@ -16,8 +16,8 @@ $ docker run --detach --name web-proxy --link apt-repository --publish 80:80 ant
 ## Building
 
 ```shell
-$ docker build --tag apt-repository apt-repository/
-$ docker build --tag web-proxy web-proxy/
+$ docker build --tag anton-johansson/apt-repository apt-repository/
+$ docker build --tag anton-johansson/web-proxy web-proxy/
 ```
 
 
