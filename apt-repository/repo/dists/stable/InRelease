@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Date: Mon, 22 May 2017 18:26:32 +0000
+MD5Sum:
+ 1dace366157be435c5e4acfd01224db9               38 Release
+ d0f6f3a1b8bbbea242191a4c1db95b86              748 main/binary-all/Packages
+ 1d61a8fd9f40049962d9f33e60906289              503 main/binary-all/Packages.gz
+SHA1:
+ 2253c99e8ba706e3525da1455f3243aef2f28ad5               38 Release
+ ce56254c32911ef3fe55a91c027269a4ceb22c62              748 main/binary-all/Packages
+ b4a2e01ee907457476d493762a9d8b5412031b0b              503 main/binary-all/Packages.gz
+SHA256:
+ db8b830224b5fe47422c5bb03bdec302417212c3ebc38a7b428f9a4ade694b0f               38 Release
+ 8cfbeb3e920aa098e4e74c6c4a1a49c02437ab7155413b5c2a519976ec12c447              748 main/binary-all/Packages
+ 890d5f7b7ff317e18c7e33f0b931f744a552db0a9832dbd77fc6464f1a7d9a71              503 main/binary-all/Packages.gz
+SHA512:
+ d2fc5bf2f253cc97ee98a1c47a789db7f5c87ab2b4f52edd9a65414ef335e18520de947fc6720bb15a31df2d5ce090d7bff4e35af2aa073df9afd4eca0b49136               38 Release
+ d6c5f668e02207191430b9e33172d86b3c16aece7ba621df77ad080f0bd20dcc621047303f8217cfe76710540f6b2e90e1c64ddb64dabfd00fd9272b63d33267              748 main/binary-all/Packages
+ f600d7c753a47ac4125d4c182326d841a241c1f86aa98d76c11786d4cce483401ee59e7eb012eb899acc57beb4b9b4d9461d57418da2ace17729ff35e1fed0a8              503 main/binary-all/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQEcBAEBCAAGBQJZIy10AAoJECUsKcPrNsTlGvMH/i///FJOQi0etRcSZ0oN4eOH
+TUBO7pwcXTriSRPzofVu3p7dfWckq8jk6kGB43X+AZrwiG+muKI7Y+BRCI0yp7xA
+MkdN9CPVgjOYREI1dtx39YNfQf3IUJoy8rdDb68yBhbv0cmaCe7OK01oK90hgVMF
+Ygw8jxGuexit8ntIUti06OxvnBPAYsRUQPWuO4NwKIrQgFndv/h29doqgGw/brQC
+iL+TKXGuikTeAeeWpd9jSwNn5ek1Ttz71K2uA14Dv/YhObZmw29P0ihvtdYQEqBo
+1g+cQro0o6adMUAVpPjfD61BYjWqb/484uv9Rz+9iQMS4xVSwV96HbxzYxEOZeE=
+=F7f9
+-----END PGP SIGNATURE-----
