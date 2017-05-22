@@ -1,0 +1,17 @@
+Package: ldap-password-reset-service
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: Anton Johansson <antoon.johansson@gmail.com>
+Installed-Size: 49135
+Depends: java8-runtime
+Filename: ./ldap-password-reset-service/ldap-password-reset-service_1.0.0_all.deb
+Size: 45128732
+MD5sum: 19dbce090f77add63ff753f2964e56b6
+SHA1: 57e8849f8741250d0ea707516c46ad1437fc81f5
+SHA256: 66ef1aee602a2ae13b8d80cb1bba40babd9fb1b7a1dc24dba3fe72ef15645c61
+SHA512: 28ff8c1d0ffe3aef5069141d0aade2af74fa71ca1e7322ff6c21174f47400e9f556397b233fdc5aa8fe5a3c39ae8b4ec4a82ffad063fcef20079d1eb0b9bab7a
+Homepage: https://github.com/anton-johansson/ldap-password-reset-service
+Description: Provides a web GUI for resetting an LDAP account's password.
+
