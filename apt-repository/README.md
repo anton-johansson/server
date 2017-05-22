@@ -11,11 +11,13 @@ A Docker container that hosts a simple APT repository over HTTP using apache.
 ## Add a new package
 
 ```shell
-cd apt-repository/repo/binary
-cp location-of-package/package.deb .
-dpkg-sig -k ??? --sign builder package.deb
-apt-ftparchive packages . > Packages
+cd ~/projects/server/apt-repository/repo/dists/stable/main/binary-all
+mkdir name-of-package
+cp location-of-package/package.deb name-of-package/
+dpkg-sig -k ??? --sign builder name-of-package/package.deb
+apt-ftparchive -c ../../../apt.conf packages . > Packages
 gzip -c Packages > Packages.gz
+cd ~/projects/server/apt-repository/repo/dists/stable
 apt-ftparchive release . > Release
 gpg -u ??? --clearsign -o InRelease Release
 gpg -u ??? -abs -o Release.gpg Release
