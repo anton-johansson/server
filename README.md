@@ -10,9 +10,9 @@ Docker images and scripts for setting up the server.
 
 ```shell
 $ alias hostip="echo '<docker ip to host>'"
-$ docker run --detach --name apt-repository-01 --publish 10101:80 anton-johansson/apt-repository
-$ docker run --detach --name apt-repository-02 --publish 10102:80 anton-johansson/apt-repository
-$ docker run --detach --name web-proxy --publish 80:80 --add-host=host:$(hostip) anton-johansson/web-proxy
+$ docker run --detach --restart --name apt-repository-01 --publish 10101:80 anton-johansson/apt-repository
+$ docker run --detach --restart --name apt-repository-02 --publish 10102:80 anton-johansson/apt-repository
+$ docker run --detach --restart --name web-proxy --publish 80:80 --add-host=host:$(hostip) anton-johansson/web-proxy
 ```
 
 ## Building
