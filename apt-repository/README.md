@@ -1,6 +1,6 @@
 # APT Repository
 
-A Docker container that hosts a simple APT repository over HTTP using apache.
+A Docker container that hosts a simple APT repository over HTTP using nginx.
 
 
 ## Packages
