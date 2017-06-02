@@ -11,14 +11,12 @@ A Docker container that hosts a simple APT repository over HTTP using nginx.
 ## Add a new package
 
 ```shell
-cd ~/projects/server/apt-repository/repo/dists/stable/main/binary-all
-mkdir name-of-package
-cp location-of-package/package.deb name-of-package/
-dpkg-sig -k ??? --sign builder name-of-package/package.deb
-apt-ftparchive -c ../../../../../apt.conf packages . > Packages
-gzip -c Packages > Packages.gz
-cd ~/projects/server/apt-repository/repo/dists/stable
-apt-ftparchive release . > Release
-gpg -u ??? --clearsign -o InRelease Release
-gpg -u ??? -abs -o Release.gpg Release
+cd ~/projects/server/apt-repository/repo
+cp location-of-package/package.deb dists/stable/main/binary-all/name-of-package/
+dpkg-sig -k ??? --sign builder dists/stable/main/binary-all/name-of-package/package.deb
+apt-ftparchive -c ../apt.conf packages dists/stable/main/binary-all > dists/stable/main/binary-all/Packages
+gzip -c dists/stable/main/binary-all/Packages dists/stable/main/binary-all/Packages.gz
+apt-ftparchive release dists/stable > dists/stable/Release
+gpg -u ??? --clearsign -o dists/stable/InRelease dists/stable/Release
+gpg -u ??? -abs -o dists/stable/Release.gpg dists/stable/Release
 ```
