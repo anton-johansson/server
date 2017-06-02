@@ -1,34 +1,30 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Architectures: all
-Components: main
-Date: Mon, 22 May 2017 18:44:56 +0000
-Label: Packages by Anton Johansson
-Suite: stable
+Date: Fri, 02 Jun 2017 22:50:05 +0000
 MD5Sum:
- 9fc13d9393aa4ed2a4ed3fb77891e205              123 Release
- d0f6f3a1b8bbbea242191a4c1db95b86              748 main/binary-all/Packages
- 1d61a8fd9f40049962d9f33e60906289              503 main/binary-all/Packages.gz
+ a589d014cbcae613272d1afc3b2c18fe               38 Release
+ 7bf44a1da067ba5db5868db2df53ae95             1458 main/binary-all/Packages
+ b1320cb6370c8d7b1bc7337eab338240              743 main/binary-all/Packages.gz
 SHA1:
- 2b77805351a8d08c045a89c40a375e8cb0164af1              123 Release
- ce56254c32911ef3fe55a91c027269a4ceb22c62              748 main/binary-all/Packages
- b4a2e01ee907457476d493762a9d8b5412031b0b              503 main/binary-all/Packages.gz
+ 51d58365841e195d7cf096a901869695103d4f8d               38 Release
+ 6a6495aa6806c20ced9c8f877052660e474abd48             1458 main/binary-all/Packages
+ 8e1e969aa44882633b6d68673f44a9dd1e0fe01a              743 main/binary-all/Packages.gz
 SHA256:
- 47b8837bdd22f7a513238d9838320183c3dc75fb4099bbda79aa6c1c5f33960f              123 Release
- 8cfbeb3e920aa098e4e74c6c4a1a49c02437ab7155413b5c2a519976ec12c447              748 main/binary-all/Packages
- 890d5f7b7ff317e18c7e33f0b931f744a552db0a9832dbd77fc6464f1a7d9a71              503 main/binary-all/Packages.gz
+ 00bea61e06046c1846ffb7a9d6d2ac24106a1e532b9295e4e170d4c08cf30a5e               38 Release
+ d6cdcab21fc9d45d088c2cc0edd4ac8063dc187bae181eb0f769fedc0dacaa66             1458 main/binary-all/Packages
+ 33d9a5cfe64c1b9b31fba7c707024076a2532939cdbf557e689da111d0c5c604              743 main/binary-all/Packages.gz
 SHA512:
- 51fafe084f227803bfabcb02d2f84b11009b5a8ff3d9852f3daa0bced4c8cf2ac594c8939f9ccaa695a8376d53be179eca818f402c30278ad7446240193b8716              123 Release
- d6c5f668e02207191430b9e33172d86b3c16aece7ba621df77ad080f0bd20dcc621047303f8217cfe76710540f6b2e90e1c64ddb64dabfd00fd9272b63d33267              748 main/binary-all/Packages
- f600d7c753a47ac4125d4c182326d841a241c1f86aa98d76c11786d4cce483401ee59e7eb012eb899acc57beb4b9b4d9461d57418da2ace17729ff35e1fed0a8              503 main/binary-all/Packages.gz
+ 8d24a7c85356f76353c2d46884f43fb2f4a2365054806df707e1095b06c89a31daa1ef66b4fad105c367a48dce59bc386bab68198e4048b896e0b5f16d7c0f71               38 Release
+ b1f12d5ca6514f4aecca7fb09b5da0e17dd4c3f7d2466a4147e3569b250fc10aadc99bfbeedfb8703ed226307f656c395bca3fbc302397c4c5df77fb9ec0e8a7             1458 main/binary-all/Packages
+ 7084d08e8937957c5fb8a086cf9ef7c926102e0baac5a0f498e4cc55b8dc414954e9dde093b51fdf611d4275abf98a8097576f742ba07bb9cd6c9b8d76b05259              743 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBCAAGBQJZIzHmAAoJECUsKcPrNsTl7CAH/jO7AZOdL+3x4NUDQOjQ4iUb
-bk0eHb9/jxhacB/8IICEvYQDgQzPEBOSF74/IpbKcJjhBpxodONFKxNActMAZgFx
-As0n5xMKsXuDakTYS8jsemCFEn2o9Ao3FPFUNzXpQtcq356gV4Tm9oLMCR6uqPRv
-QZGNeUJruBRi8ir42zJ+CoGWaXYJiq40CEoSXLy3Ix805vxsY+NWD9UzqjWZ3R6K
-J6V6EasS3ymeKhStI+lod4j547s5V1kmbdvxpb8ilKTXrSXDDNoYyMv4ItdasnfF
-sNIIf3g269svJgYcL7qEuenVEpirD9tUHtr64ZTiSmagFDj7MiEwuhES2KUJ2kE=
-=jHTD
+iQEcBAEBCAAGBQJZMeuzAAoJECUsKcPrNsTlFh0H/3Jt7huj0K3Kem3vPbwwTkHf
+Jpl2aIowzwhBMd/TM8bB5ENUw11wh2soT+PQ3mx+U81+MgedrfQM74g2ElTObckU
+vjaxrVrV3qa+Tz6IfxyQYPLM85sNWJibhVS6lyJEw6IYvbkcSznEOQsABVEbgcrA
+CXbbgFdqkOyYToYAKYZueCqmdWTu2/17M1WVmdLNHF86z6+OV9NhV2NdIPMppz8s
+8uPwhnjof34OvthK1xIFPVZ15zXSdEr/+PJ9mgpvKFN9tf0Pcs/CO0OkL8DGtz1c
+biHDkp6KMHxyIOP+duog4JpnbSCwKQeraG30BrbToDa1kDZg35JPBAMaGoiT4MY=
+=2PjX
 -----END PGP SIGNATURE-----

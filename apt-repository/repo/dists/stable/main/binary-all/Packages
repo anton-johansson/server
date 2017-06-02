@@ -1,3 +1,20 @@
+Package: elasticsearch-shell
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: Anton Johansson <antoon.johansson@gmail.com>
+Installed-Size: 12045
+Depends: java8-runtime
+Filename: ./elasticsearch-shell/elasticsearch-shell_1.0.0_all.deb
+Size: 11095290
+MD5sum: 0f6a20962b9330e948211ca0502c9171
+SHA1: 97fd0c2ba1b6b90277a198d56d6d4ac1c8f8ff59
+SHA256: 1a71fc68849fb4f36bb9abaa559b36e6e4f0ba0eda96416c8d191d4ef5318c85
+SHA512: 1a01be9290b3f08823401ce7ec9825c4e559bd57adf5e9239ca9597aeb6ed5f675c1bd31c0e1676dbf2c8cf78ceeff92d82cd2f6bdf65a6c40c1152dfdde1c05
+Homepage: https://github.com/anton-johansson/elasticsearch-shell
+Description: Provides a shell for managing Elasticsearch instances.
+
 Package: ldap-password-reset-service
 Architecture: all
 Version: 1.0.0
