@@ -6,7 +6,7 @@ Section: misc
 Maintainer: Anton Johansson <antoon.johansson@gmail.com>
 Installed-Size: 12045
 Depends: java8-runtime
-Filename: ./elasticsearch-shell/elasticsearch-shell_1.0.0_all.deb
+Filename: dists/stable/main/binary-all/elasticsearch-shell/elasticsearch-shell_1.0.0_all.deb
 Size: 11095290
 MD5sum: 0f6a20962b9330e948211ca0502c9171
 SHA1: 97fd0c2ba1b6b90277a198d56d6d4ac1c8f8ff59
@@ -23,7 +23,7 @@ Section: misc
 Maintainer: Anton Johansson <antoon.johansson@gmail.com>
 Installed-Size: 49135
 Depends: java8-runtime
-Filename: ./ldap-password-reset-service/ldap-password-reset-service_1.0.0_all.deb
+Filename: dists/stable/main/binary-all/ldap-password-reset-service/ldap-password-reset-service_1.0.0_all.deb
 Size: 45128732
 MD5sum: 19dbce090f77add63ff753f2964e56b6
 SHA1: 57e8849f8741250d0ea707516c46ad1437fc81f5
