@@ -15,7 +15,7 @@ cd ~/projects/server/apt-repository/repo/dists/stable/main/binary-all
 mkdir name-of-package
 cp location-of-package/package.deb name-of-package/
 dpkg-sig -k ??? --sign builder name-of-package/package.deb
-apt-ftparchive -c ../../../apt.conf packages . > Packages
+apt-ftparchive -c ../../../../../apt.conf packages . > Packages
 gzip -c Packages > Packages.gz
 cd ~/projects/server/apt-repository/repo/dists/stable
 apt-ftparchive release . > Release
